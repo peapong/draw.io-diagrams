@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-31T10:40:56.953Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="ODxc5HpudYQQwZfddNep" version="20.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-31T10:42:14.423Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="oOPORSQ5bGuskILHVrnm" version="20.2.3" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="906" dy="656" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -94,7 +94,7 @@
         <mxCell id="F-I4ucaG-20q1lFfXrHI-24" value="InputMask: msisdn" style="rounded=0;whiteSpace=wrap;html=1;" parent="F-I4ucaG-20q1lFfXrHI-20" vertex="1">
           <mxGeometry y="358" width="260" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="F-I4ucaG-20q1lFfXrHI-36" value="PR 4 | Form กรอกที่อยู่ ที่ติดต่อ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="F-I4ucaG-20q1lFfXrHI-36" value="PR 4 | Form ที่อยู่ ที่ติดต่อ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="440" y="840" width="260" height="296" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -124,6 +124,38 @@
           <mxGeometry y="236" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="vvMy4MuH9mkFOj2RVmaX-6" value="select: sub-district" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="F-I4ucaG-20q1lFfXrHI-36">
+          <mxGeometry y="266" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vvMy4MuH9mkFOj2RVmaX-7" value="PR 5 | Form ที่อยู่ออกใบเสร็จ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="440" y="1169" width="260" height="296" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vvMy4MuH9mkFOj2RVmaX-8" value="Input: address1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vvMy4MuH9mkFOj2RVmaX-7">
+          <mxGeometry y="26" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vvMy4MuH9mkFOj2RVmaX-9" value="Input: address_room" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vvMy4MuH9mkFOj2RVmaX-7">
+          <mxGeometry y="56" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vvMy4MuH9mkFOj2RVmaX-10" value="Input: address_building" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vvMy4MuH9mkFOj2RVmaX-7">
+          <mxGeometry y="86" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vvMy4MuH9mkFOj2RVmaX-11" value="Input: address_alley" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vvMy4MuH9mkFOj2RVmaX-7">
+          <mxGeometry y="116" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vvMy4MuH9mkFOj2RVmaX-12" value="Input: address_street" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vvMy4MuH9mkFOj2RVmaX-7">
+          <mxGeometry y="146" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vvMy4MuH9mkFOj2RVmaX-13" value="Input: address_memo" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vvMy4MuH9mkFOj2RVmaX-7">
+          <mxGeometry y="176" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vvMy4MuH9mkFOj2RVmaX-14" value="select: province" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vvMy4MuH9mkFOj2RVmaX-7">
+          <mxGeometry y="206" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vvMy4MuH9mkFOj2RVmaX-15" value="select: district" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vvMy4MuH9mkFOj2RVmaX-7">
+          <mxGeometry y="236" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vvMy4MuH9mkFOj2RVmaX-16" value="select: sub-district" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="vvMy4MuH9mkFOj2RVmaX-7">
           <mxGeometry y="266" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
