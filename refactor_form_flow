@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T05:48:25.669Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="caJlXs9rfTpu-qu9vmzU" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-10T05:49:38.887Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="3LexWSg_pwscJLNANSoE" version="20.8.17" type="github">
   <diagram name="หน้า-1" id="idDFT1mlw6KMjC4FTWLW">
-    <mxGraphModel dx="1523" dy="1097" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1828" dy="1316" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -45,7 +45,7 @@
         <mxCell id="Ogqyakze48-16BQAnKmu-194" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=10;fontColor=default;dashed=1;" edge="1" parent="1" source="Ogqyakze48-16BQAnKmu-27" target="Ogqyakze48-16BQAnKmu-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-27" value="FORM: PERSONAL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-27" value="FORM: PERSONAL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="620" y="770" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-184" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.011;entryY=0.326;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=22;" edge="1" parent="1" source="Ogqyakze48-16BQAnKmu-11" target="Ogqyakze48-16BQAnKmu-14">
@@ -75,7 +75,7 @@
         <mxCell id="Ogqyakze48-16BQAnKmu-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;fontColor=default;" edge="1" parent="1" source="Ogqyakze48-16BQAnKmu-24" target="Ogqyakze48-16BQAnKmu-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-24" value="STATE 1 : PERSONAL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-24" value="STATE 1 : PERSONAL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="178" y="770" width="209" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;fontColor=default;" edge="1" parent="1" source="Ogqyakze48-16BQAnKmu-35" target="Ogqyakze48-16BQAnKmu-43">
@@ -86,7 +86,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-35" value="STATE 2 : CORPORATE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-35" value="STATE 2 : CORPORATE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="179.5" y="870" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-42" value="&lt;b&gt;PR2: FORM CONTROL CORPORATE&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
@@ -109,7 +109,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-43" value="FORM: CORPORATE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-43" value="FORM: CORPORATE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="620" y="950" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-66" value="&lt;b&gt;PR3: FORM CONTROL ADDRESS&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
@@ -131,7 +131,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-67" value="FORM: ADDRESS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-67" value="FORM: ADDRESS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="620" y="1150" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-68" value="&lt;b&gt;PR3: FORM CONTROL BILLING_ADDRESS&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
@@ -153,7 +153,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-69" value="FORM: BILLING_ADDRESS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-69" value="FORM: BILLING_ADDRESS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="620" y="1340" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-70" value="&lt;b&gt;PR3: FORM CONTROL PAYER_PERSONAL&lt;/b&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=default;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
@@ -170,7 +170,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-71" value="FORM:&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;PAYER_PERSONAL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-71" value="FORM:&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;PAYER_PERSONAL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="620" y="1550" width="200" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;fontColor=default;" edge="1" parent="1" source="Ogqyakze48-16BQAnKmu-72" target="Ogqyakze48-16BQAnKmu-67">
@@ -182,7 +182,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-72" value="STATE 3 : ADDRESS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-72" value="STATE 3 : ADDRESS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="179.5" y="990" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;fontColor=default;" edge="1" parent="1" source="Ogqyakze48-16BQAnKmu-73" target="Ogqyakze48-16BQAnKmu-69">
@@ -193,7 +193,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-73" value="STATE 4 :&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;BILLING_ADDRESS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-73" value="STATE 4 :&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;BILLING_ADDRESS&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="179.5" y="1110" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-205" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=10;fontColor=default;" edge="1" parent="1" source="Ogqyakze48-16BQAnKmu-74" target="Ogqyakze48-16BQAnKmu-71">
@@ -204,7 +204,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-74" value="STATE 5 :&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;PAYER_PERSONAL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-74" value="STATE 5 :&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;PAYER_PERSONAL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="177" y="1230" width="210" height="80" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-81" value="COMPONENT FORM บุคคลธรรมดา" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
@@ -446,10 +446,10 @@
         <mxCell id="Ogqyakze48-16BQAnKmu-92" value="select province" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1440" y="1160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-166" value="CTA: ปุ่มส่งคำขอยินยอม PDPA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-166" value="CTA: ปุ่มส่งคำขอยินยอม PDPA" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="160" y="1340" width="260" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-167" value="CTA: ปุ่มยืนยันข้อมูล เพื่อไปยังหน้าถัดไป&lt;br&gt;(next step or pages)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-167" value="CTA: ปุ่มยืนยันข้อมูล เพื่อไปยังหน้าถัดไป&lt;br&gt;(next step or pages)" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="154.5" y="1440" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-176" value="Backend" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
