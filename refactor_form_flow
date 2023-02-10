@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T04:56:12.077Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="C81YVaotXu5DhJdeKtjL" version="20.8.17" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-10T05:15:04.362Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36 OPR/94.0.0.0" etag="R-MCbHVUc4YiMMP07REi" version="20.8.17" type="github">
   <diagram name="หน้า-1" id="idDFT1mlw6KMjC4FTWLW">
-    <mxGraphModel dx="962" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="332" dy="239" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Ogqyakze48-16BQAnKmu-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="696" width="1650" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
@@ -134,7 +134,7 @@
         <mxCell id="Ogqyakze48-16BQAnKmu-74" value="STATE 5 :&amp;nbsp;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;PAYER_PERSONAL&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" vertex="1" parent="1">
           <mxGeometry x="177" y="1230" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Ogqyakze48-16BQAnKmu-81" value="COMPONENT FORM PERSONAL" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+        <mxCell id="Ogqyakze48-16BQAnKmu-81" value="COMPONENT FORM บุคคลธรรมดา" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="720" width="260" height="308" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -198,6 +198,141 @@
         </mxCell>
         <mxCell id="Ogqyakze48-16BQAnKmu-92" value="select province" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-97">
           <mxGeometry x="68" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-102" value="COMPONENT FORM นิติบุคคล" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;container=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="1014.5" y="1060" width="260" height="370" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-114" value="COMPONENT FORM ที่อยู่ ที่ติดต่อ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="1014.5" y="1470" width="265.5" height="296" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-124" value="COMPONENT FORM ที่อยู่ออกใบเสร็จ" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1017" y="1810" width="260" height="296" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-125" value="Input: billing_address1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-124">
+          <mxGeometry y="26" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-126" value="Input: billing_address_room" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-124">
+          <mxGeometry y="56" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-127" value="Input: billing_address_building" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-124">
+          <mxGeometry y="86" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-128" value="Input: billing_address_alley" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-124">
+          <mxGeometry y="116" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-129" value="Input: billing_address_street" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-124">
+          <mxGeometry y="146" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-130" value="Input: billing_address_memo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-124">
+          <mxGeometry y="176" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-131" value="select: billing_province" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-124">
+          <mxGeometry y="206" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-132" value="select: billing_district" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-124">
+          <mxGeometry y="236" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-133" value="select: billing_sub-district" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-124">
+          <mxGeometry y="266" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-134" value="COMPONENT FORM  ข้อมูลผู้ชำระเงินจอง" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1014.5" y="2150" width="260" height="204" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-135" value="InputMask: payer_pid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-134">
+          <mxGeometry y="26" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-136" value="Input: payer_first_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-134">
+          <mxGeometry y="66" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-137" value="Input: payer_last_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-134">
+          <mxGeometry y="96" width="260" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-138" value="Input: payer_email" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-134">
+          <mxGeometry y="130" width="260" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-139" value="InputMask: payer_msisdn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="Ogqyakze48-16BQAnKmu-134">
+          <mxGeometry y="164" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-103" value="Input: comp_id" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1077.25" y="1097" width="145.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-104" value="Input: comp_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1077.25" y="1135" width="145.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-105" value="RadioButton: branch_type" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1077.25" y="1169" width="148" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-106" value="Input: branch_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1079.5" y="1205" width="140.5" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="Ogqyakze48-16BQAnKmu-107" target="Ogqyakze48-16BQAnKmu-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="1250" />
+              <mxPoint x="1320" y="1346" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-107" value="InputMask: pid" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1083.38" y="1240" width="132.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-108" value="DatePicker: birth" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1078.5" y="1270" width="145.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-109" value="Input: first_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1079.5" y="1300" width="135.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-110" value="Input: last_name" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1089.25" y="1330" width="115.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-111" value="Input: email" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1074.5" y="1362" width="145.5" height="16" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=18;" edge="1" parent="1" source="Ogqyakze48-16BQAnKmu-112" target="Ogqyakze48-16BQAnKmu-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1320" y="1404" />
+              <mxPoint x="1320" y="1346" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-112" value="InputMask: msisdn" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1091.5" y="1388" width="108.5" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-115" value="Input: address1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1081.25" y="1496" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-116" value="Input: address_room" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1081.25" y="1526" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-117" value="Input: address_building" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1081.25" y="1556" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-118" value="Input: address_alley" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1081.25" y="1586" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-119" value="Input: address_street" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1081.25" y="1616" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-120" value="Input: address_memo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1081.25" y="1646" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-121" value="select: province" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1081.25" y="1676" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-122" value="select: district" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1081.25" y="1706" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ogqyakze48-16BQAnKmu-123" value="select: sub-district" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1081.25" y="1736" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
