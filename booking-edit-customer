@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-10T04:41:25.885Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" etag="t8uz9reK1dGgFYVQatqq" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-10T04:41:39.898Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 OPR/95.0.0.0" etag="HV4LtME4aUm0t4VJwBmU" version="20.8.23" type="github">
   <diagram name="หน้า-1" id="RdDFS-3rf6OAWkqqM5CS">
     <mxGraphModel dx="1970" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -160,6 +160,9 @@
         </mxCell>
         <mxCell id="CCIQdrBk0PR4aSFWg4sR-178" value="edit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="911" y="736" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CCIQdrBk0PR4aSFWg4sR-179" value="view" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="544" y="745" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
