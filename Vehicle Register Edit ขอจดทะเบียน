@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T07:08:54.274Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="vf7-6rd96RhnK97-MjDw" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T07:25:48.929Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="a5nFa2w_D9MRekVRVWY9" version="21.1.2" type="github">
   <diagram name="หน้า-1" id="th7SQlqYfXI-huPvJ7u6">
     <mxGraphModel dx="1789" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,11 +70,11 @@
         <mxCell id="DPw0Q9nFzy5HPtE7Ij3--82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--53" target="DPw0Q9nFzy5HPtE7Ij3--69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--53" value="Locale sale/pdi/edit/vehregis" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--53" value="Locale Vehicle Register" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-420" y="600" width="340" height="110" as="geometry" />
         </mxCell>
         <mxCell id="DPw0Q9nFzy5HPtE7Ij3--54" value="Page: salePdiEditVehicalRegister" style="rounded=0;whiteSpace=wrap;html=1;" parent="DPw0Q9nFzy5HPtE7Ij3--53" vertex="1">
-          <mxGeometry x="65" y="40" width="225" height="50" as="geometry" />
+          <mxGeometry x="57.5" y="40" width="225" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DPw0Q9nFzy5HPtE7Ij3--57" value="TODO: Backend" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1030" y="430" width="460" height="120" as="geometry" />
