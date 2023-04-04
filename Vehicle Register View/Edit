@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-04-03T04:49:23.280Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" version="21.1.2" etag="Ggf499k0EHX7XM5anq96" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T03:44:36.413Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="-O1kIa06Z_P_ubnVX78l" version="21.1.2" type="github">
   <diagram name="หน้า-1" id="th7SQlqYfXI-huPvJ7u6">
-    <mxGraphModel>
+    <mxGraphModel dx="1075" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--5" value="Card Form: คำขอจดทะเบียน" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="330" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--11" value="Select: สร้างคำขอจดทะเบียนบ้าน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--5">
+          <mxGeometry x="65" y="40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--12" value="Select: ทะเบียนกำลังรวบรวมตรวจสอบเอกสาร" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--5">
+          <mxGeometry x="33" y="100" width="264" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--13" value="Memo: หมายเหตุ จาก SalesAdmin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--5">
+          <mxGeometry x="60" y="160" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--14" value="Memo: หมายเหตุ จากฝ่ายจดทะเบียน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--5">
+          <mxGeometry x="45" y="210" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--15" value="Card: การดำเนินการ (ประวัติการส่งออก)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--16" value="Table: ประวัติการส่งออกงาน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--15">
+          <mxGeometry x="65" y="40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--20" value="Card Form: ป้ายทะเบียน" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="520" width="330" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--21" value="Date: บริษัทฯ ได้รับป้ายทะเบียน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--20">
+          <mxGeometry x="65" y="40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--22" value="Upload Pic: รูปป้ายทะเบียน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--20">
+          <mxGeometry x="81.5" y="100" width="167" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--25" value="Card Form: เล่มทะเบียน" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="740" width="330" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--31" value="Date: บริษัทฯ ได้รับเล่มทะเบียน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--25">
+          <mxGeometry x="65" y="50" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--32" value="Upload Pic: รูปเล่มทะเบียนหน้าข้อมูล/สำเนา" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--25">
+          <mxGeometry x="45.75" y="120" width="238.5" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
