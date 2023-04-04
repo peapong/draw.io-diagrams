@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-04-04T05:26:03.645Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="xL6-ILQ9Eqju5abQOKPC" version="21.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-04T07:08:54.274Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="vf7-6rd96RhnK97-MjDw" version="21.1.2" type="github">
   <diagram name="หน้า-1" id="th7SQlqYfXI-huPvJ7u6">
-    <mxGraphModel dx="2489" dy="2365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1789" dy="1862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,13 +59,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DPw0Q9nFzy5HPtE7Ij3--48" value="Mock API" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="356" width="340" height="180" as="geometry" />
+          <mxGeometry x="-520" y="356" width="440" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--49" value="GET:&amp;nbsp; `sale/pdi/${bookingCode}/vehregis`" style="rounded=0;whiteSpace=wrap;html=1;" parent="DPw0Q9nFzy5HPtE7Ij3--48" vertex="1">
-          <mxGeometry x="37.5" y="40" width="265" height="50" as="geometry" />
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--49" value="GET:&amp;nbsp; `api/sale/${vehregisterMasterId}/${typeVehregisterId}/&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;vehicle_register&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;`&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="DPw0Q9nFzy5HPtE7Ij3--48" vertex="1">
+          <mxGeometry x="37.5" y="40" width="382.5" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--50" value="PUT: `sale/pdi/${bookingCode}/vehregis`" style="rounded=0;whiteSpace=wrap;html=1;" parent="DPw0Q9nFzy5HPtE7Ij3--48" vertex="1">
-          <mxGeometry x="38.5" y="110" width="264" height="50" as="geometry" />
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--50" value="PUT: `api/sale/${vehregisterMasterId}/${typeVehregisterId}/&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;vehicle_register&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;`&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="DPw0Q9nFzy5HPtE7Ij3--48" vertex="1">
+          <mxGeometry x="38.5" y="110" width="381.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DPw0Q9nFzy5HPtE7Ij3--82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--53" target="DPw0Q9nFzy5HPtE7Ij3--69" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -77,10 +77,10 @@
           <mxGeometry x="65" y="40" width="225" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DPw0Q9nFzy5HPtE7Ij3--57" value="TODO: Backend" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1030" y="430" width="340" height="120" as="geometry" />
+          <mxGeometry x="1030" y="430" width="460" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--59" value="PUT: `sale/pdi/${bookingCode}/vehregis`" style="rounded=0;whiteSpace=wrap;html=1;" parent="DPw0Q9nFzy5HPtE7Ij3--57" vertex="1">
-          <mxGeometry x="38" y="45" width="264" height="50" as="geometry" />
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--59" value="PUT: `api/sale/${vehregisterMasterId}/${typeVehregisterId}/&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;vehicle_register&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;`&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="DPw0Q9nFzy5HPtE7Ij3--57" vertex="1">
+          <mxGeometry x="38" y="45" width="392" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DPw0Q9nFzy5HPtE7Ij3--61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--60" target="DPw0Q9nFzy5HPtE7Ij3--59" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -113,10 +113,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DPw0Q9nFzy5HPtE7Ij3--77" value="TODO: Backend" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-420" y="180" width="340" height="120" as="geometry" />
+          <mxGeometry x="-520" y="190" width="440" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--78" value="GET: `sale/pdi/${bookingCode}/vehregis`" style="rounded=0;whiteSpace=wrap;html=1;" parent="DPw0Q9nFzy5HPtE7Ij3--77" vertex="1">
-          <mxGeometry x="38" y="45" width="264" height="50" as="geometry" />
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--78" value="GET: `api/sale/${vehregisterMasterId&lt;span style=&quot;background-color: initial;&quot;&gt;}/${typeVehregisterId}/&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;vehicle_register&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;`&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="DPw0Q9nFzy5HPtE7Ij3--77" vertex="1">
+          <mxGeometry x="19" y="41" width="402" height="50" as="geometry" />
         </mxCell>
         <mxCell id="DPw0Q9nFzy5HPtE7Ij3--84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--73" target="DPw0Q9nFzy5HPtE7Ij3--5" edge="1">
           <mxGeometry relative="1" as="geometry">
