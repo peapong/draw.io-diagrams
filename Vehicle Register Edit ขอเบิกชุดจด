@@ -1,0 +1,149 @@
+<mxfile host="app.diagrams.net" modified="2023-04-04T05:18:27.621Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 OPR/96.0.0.0" etag="GVEl5wHoiG7vR71CqCSN" version="21.1.2" type="github">
+  <diagram name="หน้า-1" id="th7SQlqYfXI-huPvJ7u6">
+    <mxGraphModel dx="3438" dy="3049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--5" target="DPw0Q9nFzy5HPtE7Ij3--60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--5" value="Card Form: คำขอจดทะเบียน" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="40" width="330" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--11" value="Select: สร้างคำขอจดทะเบียนบ้าน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--5">
+          <mxGeometry x="65" y="40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--12" value="Select: ทะเบียนกำลังรวบรวมตรวจสอบเอกสาร" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--5">
+          <mxGeometry x="33" y="100" width="264" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--13" value="Memo: หมายเหตุ จาก SalesAdmin" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--5">
+          <mxGeometry x="60" y="160" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--14" value="Memo: หมายเหตุ จากฝ่ายจดทะเบียน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--5">
+          <mxGeometry x="45" y="210" width="240" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--15" target="DPw0Q9nFzy5HPtE7Ij3--60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--15" value="Card: การดำเนินการ (ประวัติการส่งออก)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="330" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--16" value="Table: ประวัติการส่งออกงาน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--15">
+          <mxGeometry x="65" y="40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--20" target="DPw0Q9nFzy5HPtE7Ij3--60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--20" value="Card Form: ป้ายทะเบียน" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="520" width="330" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--21" value="Date: บริษัทฯ ได้รับป้ายทะเบียน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--20">
+          <mxGeometry x="65" y="40" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--22" value="Upload Pic: รูปป้ายทะเบียน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--20">
+          <mxGeometry x="81.5" y="100" width="167" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--25" target="DPw0Q9nFzy5HPtE7Ij3--60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--25" value="Card Form: เล่มทะเบียน" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="740" width="330" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--31" value="Date: บริษัทฯ ได้รับเล่มทะเบียน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--25">
+          <mxGeometry x="65" y="50" width="200" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--32" value="Upload Pic: รูปเล่มทะเบียนหน้าข้อมูล/สำเนา" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--25">
+          <mxGeometry x="45.75" y="120" width="238.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--48" target="DPw0Q9nFzy5HPtE7Ij3--69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--48" value="Mock API" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="356" width="340" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--49" value="GET:&amp;nbsp; `sale/pdi/${bookingCode}/vehregis`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--48">
+          <mxGeometry x="37.5" y="40" width="265" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--50" value="PUT: `sale/pdi/${bookingCode}/vehregis`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--48">
+          <mxGeometry x="38.5" y="110" width="264" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--53" target="DPw0Q9nFzy5HPtE7Ij3--69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--53" value="Locale sale/pdi/edit/vehregis" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="600" width="340" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--54" value="Page: salePdiEditVehicalRegister" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--53">
+          <mxGeometry x="65" y="40" width="225" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--57" value="TODO: Backend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="430" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--59" value="PUT: `sale/pdi/${bookingCode}/vehregis`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--57">
+          <mxGeometry x="38" y="45" width="264" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--60" target="DPw0Q9nFzy5HPtE7Ij3--59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--60" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="950" y="485" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--68" value="Edit" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="888" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--69" value="Page View/Edit Vehicle Register (ขอจดทะเบียน)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="155" width="380" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--70" value="Card List" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--69">
+          <mxGeometry x="95" y="55" width="190" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--73" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Card Form: คำขอจดทะเบียน&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--69">
+          <mxGeometry x="95" y="144" width="190" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--74" value="Card: การดำเนินการ (ประวัติการส่งออก)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--69">
+          <mxGeometry x="52.5" y="240" width="275" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--75" value="Card Form: ป้ายทะเบียน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--69">
+          <mxGeometry x="52.5" y="335" width="275" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--76" value="Card Form: เล่มทะเบียน" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--69">
+          <mxGeometry x="52.5" y="430" width="275" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--77" target="DPw0Q9nFzy5HPtE7Ij3--69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--77" value="TODO: Backend" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="180" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--78" value="GET: `sale/pdi/${bookingCode}/vehregis`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="DPw0Q9nFzy5HPtE7Ij3--77">
+          <mxGeometry x="38" y="45" width="264" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--73" target="DPw0Q9nFzy5HPtE7Ij3--5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="330" />
+              <mxPoint x="430" y="185" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--74" target="DPw0Q9nFzy5HPtE7Ij3--15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--75" target="DPw0Q9nFzy5HPtE7Ij3--20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="520" />
+              <mxPoint x="440" y="615" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="DPw0Q9nFzy5HPtE7Ij3--76" target="DPw0Q9nFzy5HPtE7Ij3--25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DPw0Q9nFzy5HPtE7Ij3--89" value="&lt;h1 style=&quot;font-size: 38px;&quot;&gt;Vehicle Register View/Edit (ขอจดทะเบียน)&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-100" width="830" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
