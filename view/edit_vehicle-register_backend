@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T08:25:29.566Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="FjICbdU9jGrH_FBZPOz9" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T08:31:36.362Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="1KrxLs0LMvFyJ4Y1WGlG" version="21.3.6" type="github">
   <diagram name="หน้า-1" id="_lTkvXwPANPkcARCSi3-">
     <mxGraphModel dx="2026" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -145,6 +145,12 @@
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-65" value="200 Found :&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Array of data.&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;200 Not Found:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Empty array.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-64">
           <mxGeometry x="35" y="30" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-69" value="handler" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="300" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-70" value="Get vehicle register detail data by vehicle register master id." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-69">
+          <mxGeometry x="10" y="30" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
