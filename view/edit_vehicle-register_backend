@@ -1,40 +1,40 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T07:26:07.299Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="bdmee8WbnEYmBxX2hxlq" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T07:51:10.723Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="ka6s65nk32sBP7N-uLAP" version="21.3.6" type="github">
   <diagram name="หน้า-1" id="_lTkvXwPANPkcARCSi3-">
-    <mxGraphModel dx="1826" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1519" dy="443" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-3" value="API 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="170" y="150" width="266" height="90" as="geometry" />
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-3" value="request" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="150" width="260" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-4" value="GET:&amp;nbsp;getTypeVehicleRegisterDescriptionById" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-3">
-          <mxGeometry x="3" y="40" width="260" height="30" as="geometry" />
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-53" value="&lt;b&gt;params&lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;vehregister_status_id: number&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-3">
+          <mxGeometry x="10" y="30" width="256" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-5" value="API 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-5" value="request" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="300" width="266" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-6" value="GET:&amp;nbsp;getVehicleRegisterDetailById" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-5">
-          <mxGeometry x="28" y="40" width="210" height="30" as="geometry" />
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-55" value="&lt;b&gt;params&lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;vehregister_master_id: string&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-5">
+          <mxGeometry x="10" y="30" width="256" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-7" value="API 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-7" value="request" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="450" width="266" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-8" value="GET:&amp;nbsp;getVehicleRegisterById" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-7">
-          <mxGeometry x="43" y="40" width="180" height="30" as="geometry" />
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-56" value="&lt;b&gt;params&lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;vehregister_master_id: string&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-7">
+          <mxGeometry x="10" y="30" width="256" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-9" value="API 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-9" value="request" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="600" width="266" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-10" value="GET:&amp;nbsp;getVehicleKitBorrowById" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-9">
-          <mxGeometry x="43" y="40" width="180" height="30" as="geometry" />
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-57" value="&lt;b&gt;params&lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;vehkitborrow_master_id: string&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-9">
+          <mxGeometry x="10" y="30" width="256" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-11" value="API 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-11" value="request" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="770" width="266" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-12" value="PUT:&amp;nbsp;updateVehicleRegisterById" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-11">
           <mxGeometry x="33" y="40" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-13" value="API 1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-13" value="request" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="950" width="266" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-14" value="PUT:&amp;nbsp;updateVehicleKitBorrowById" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-13">
@@ -82,8 +82,8 @@
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_VxGAeCzWOpxMsVGL2jx-21" target="_VxGAeCzWOpxMsVGL2jx-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-36" value="&lt;u style=&quot;&quot;&gt;1. API GET&lt;i&gt; type vehicle register description by vehicle master id&lt;/i&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="170" y="120" width="380" height="30" as="geometry" />
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-36" value="&lt;u style=&quot;&quot;&gt;1. API GET&lt;i&gt; type vehicle register description by vehicle register status id&lt;/i&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="170" y="120" width="390" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-37" value="&lt;u style=&quot;&quot;&gt;2. API GET&amp;nbsp;&lt;i&gt;vehicle register detail by vehicle master id&lt;/i&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="270" width="380" height="30" as="geometry" />
@@ -101,7 +101,7 @@
           <mxGeometry x="170" y="920" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-44" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: ui-monospace, SFMono-Medium, &amp;quot;SF Mono&amp;quot;, &amp;quot;Segoe UI Mono&amp;quot;, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, monospace; line-height: 20px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;api/sale/pdi/type_vehregister_description/:vehregisterStatusId&lt;/font&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="165" y="110" width="390" height="10" as="geometry" />
+          <mxGeometry x="164" y="110" width="390" height="10" as="geometry" />
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-46" value="&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: ui-monospace, SFMono-Medium, &amp;quot;SF Mono&amp;quot;, &amp;quot;Segoe UI Mono&amp;quot;, &amp;quot;Roboto Mono&amp;quot;, &amp;quot;Ubuntu Mono&amp;quot;, Menlo, monospace; line-height: 20px;&quot;&gt;&lt;div style=&quot;line-height: 20px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;api/sale/pdi/vehicle_register_detail/:vehregisterMasterId&lt;/font&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="165" y="260" width="355" height="10" as="geometry" />
