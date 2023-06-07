@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T08:02:36.391Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="eYM7fPVAypIhT2Bi1Peo" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T08:06:06.878Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="iVweS3qDlEBGw3iDjIAW" version="21.3.6" type="github">
   <diagram name="หน้า-1" id="_lTkvXwPANPkcARCSi3-">
     <mxGraphModel dx="2026" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -123,6 +123,12 @@
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-61" value="&lt;b&gt;body&lt;br&gt;&lt;/b&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;booking_master_id?: string | null;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;vehkitborrow_status_id?: number;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;regis_memo?: string | null;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;customer_received_image_file_name?: string | null;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;customer_return_image_file_name?: string | null;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="184" y="1120" width="336" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-62" value="handler" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="150" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-63" value="Get data type vehicle register description by vehicle register status id." style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-62">
+          <mxGeometry x="10" y="30" width="230" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
