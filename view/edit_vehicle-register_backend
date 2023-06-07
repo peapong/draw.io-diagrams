@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T09:48:02.788Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="lx4C7KAU2TdL7xozw2cY" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T09:49:41.400Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="sCRLcbLmgMCJotN4CSAu" version="21.3.6" type="github">
   <diagram name="หน้า-1" id="_lTkvXwPANPkcARCSi3-">
     <mxGraphModel dx="1644" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -212,7 +212,7 @@
           <mxGeometry x="610" y="1045" width="260" height="200" as="geometry" />
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-102" value="Check if it exists in the database with request body:&lt;br&gt;&lt;ul&gt;&lt;li&gt;booking_master_id&lt;/li&gt;&lt;li&gt;vehkitborrow_status_id&lt;/li&gt;&lt;li&gt;regis_memo&lt;br&gt;&lt;/li&gt;&lt;li&gt;customer_received_image_file_name&lt;br&gt;&lt;/li&gt;&lt;li&gt;customer_return_image_file_name&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-101">
-          <mxGeometry x="5" y="30" width="245" height="140" as="geometry" />
+          <mxGeometry x="6" y="30" width="245" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
