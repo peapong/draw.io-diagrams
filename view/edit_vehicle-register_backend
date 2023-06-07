@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T08:38:53.471Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="Y3oq80agqSdj-ByogmlM" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T09:48:02.788Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="lx4C7KAU2TdL7xozw2cY" version="21.3.6" type="github">
   <diagram name="หน้า-1" id="_lTkvXwPANPkcARCSi3-">
-    <mxGraphModel dx="2325" dy="960" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1644" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,6 +40,9 @@
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-57" value="&lt;b&gt;params&lt;/b&gt;&lt;br&gt;&lt;ul style=&quot;&quot;&gt;&lt;li style=&quot;&quot;&gt;vehkitborrow_master_id: string&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-9">
           <mxGeometry x="10" y="30" width="240" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_VxGAeCzWOpxMsVGL2jx-11" target="_VxGAeCzWOpxMsVGL2jx-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-11" value="request" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="770" width="324" height="205" as="geometry" />
         </mxCell>
@@ -48,6 +51,9 @@
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-60" value="&lt;b&gt;body&lt;br&gt;&lt;/b&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;booking_master_id?: string | null;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;vehregister_status_id?: number;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;vehregister_description_id?: number;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;regis_memo?: string | null;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;plate_image_file_name?: string | null;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;book_image_file_name?: string | null;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-11">
           <mxGeometry x="14" y="80" width="276" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_VxGAeCzWOpxMsVGL2jx-13" target="_VxGAeCzWOpxMsVGL2jx-101">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-13" value="request" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="1040" width="340" height="210" as="geometry" />
@@ -134,7 +140,7 @@
           <mxGeometry x="163" y="1000" width="330" height="10" as="geometry" />
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-61" value="&lt;b&gt;body&lt;br&gt;&lt;/b&gt;&lt;ul style=&quot;&quot;&gt;&lt;li&gt;booking_master_id?: string | null;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;vehkitborrow_status_id?: number;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;regis_memo?: string | null;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;customer_received_image_file_name?: string | null;&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;&quot;&gt;customer_return_image_file_name?: string | null;&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="184" y="1120" width="336" height="120" as="geometry" />
+          <mxGeometry x="184" y="1120" width="316" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_VxGAeCzWOpxMsVGL2jx-62" target="_VxGAeCzWOpxMsVGL2jx-64">
           <mxGeometry relative="1" as="geometry" />
@@ -195,6 +201,18 @@
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-92" value="200 Found :&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Array of data.&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;200 Not Found:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Empty array.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-91">
           <mxGeometry x="35" y="30" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-94" value="pre-handler" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="773" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-99" value="Check&amp;nbsp;if it exists in the database with&amp;nbsp;request body:&lt;br&gt;&lt;ul&gt;&lt;li&gt;booking_master_id&lt;/li&gt;&lt;li&gt;vehregister_status_id&lt;br&gt;&lt;/li&gt;&lt;li&gt;vehregister_description_id&lt;br&gt;&lt;/li&gt;&lt;li&gt;regis_memo&lt;br&gt;&lt;/li&gt;&lt;li&gt;plate_image_file_name&lt;br&gt;&lt;/li&gt;&lt;li&gt;book_image_file_name&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-94">
+          <mxGeometry x="17.38" y="30" width="225.25" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-101" value="pre-handler" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="1045" width="260" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-102" value="Check if it exists in the database with request body:&lt;br&gt;&lt;ul&gt;&lt;li&gt;booking_master_id&lt;/li&gt;&lt;li&gt;vehkitborrow_status_id&lt;/li&gt;&lt;li&gt;regis_memo&lt;br&gt;&lt;/li&gt;&lt;li&gt;customer_received_image_file_name&lt;br&gt;&lt;/li&gt;&lt;li&gt;customer_return_image_file_name&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-101">
+          <mxGeometry x="5" y="30" width="245" height="140" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
