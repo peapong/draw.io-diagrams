@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-06-07T09:49:41.400Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="sCRLcbLmgMCJotN4CSAu" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-07T10:04:28.648Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="0p9Y8qI7K2bTTQjqz4QT" version="21.3.6" type="github">
   <diagram name="หน้า-1" id="_lTkvXwPANPkcARCSi3-">
-    <mxGraphModel dx="1644" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -202,6 +202,11 @@
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-92" value="200 Found :&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Array of data.&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;200 Not Found:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;Empty array.&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-91">
           <mxGeometry x="35" y="30" width="230" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_VxGAeCzWOpxMsVGL2jx-94">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="872.913043478261" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-94" value="pre-handler" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="610" y="773" width="260" height="200" as="geometry" />
         </mxCell>
@@ -213,6 +218,12 @@
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-102" value="Check if it exists in the database with request body:&lt;br&gt;&lt;ul&gt;&lt;li&gt;booking_master_id&lt;/li&gt;&lt;li&gt;vehkitborrow_status_id&lt;/li&gt;&lt;li&gt;regis_memo&lt;br&gt;&lt;/li&gt;&lt;li&gt;customer_received_image_file_name&lt;br&gt;&lt;/li&gt;&lt;li&gt;customer_return_image_file_name&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-101">
           <mxGeometry x="6" y="30" width="245" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-105" value="handler" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="773" width="260" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-106" value="- if not exists in the database:&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;br&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;C&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;reate or replace fill in database.&lt;/span&gt;&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/ul&gt;&lt;/div&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;booking_master_id&lt;/li&gt;&lt;li&gt;vehregister_status_id&lt;br&gt;&lt;/li&gt;&lt;li&gt;vehregister_description_id&lt;/li&gt;&lt;li&gt;regis_memo&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Create then&amp;nbsp;not exist in database.&lt;br&gt;&lt;/div&gt;&lt;ul&gt;&lt;li&gt;plate_image_file_name&lt;br&gt;&lt;/li&gt;&lt;li&gt;book_image_file_name&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;- if no request body do not take any action.&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="_VxGAeCzWOpxMsVGL2jx-105">
+          <mxGeometry x="15.38" y="30" width="232.62" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
