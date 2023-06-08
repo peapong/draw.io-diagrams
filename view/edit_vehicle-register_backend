@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-08T09:54:22.546Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="n0rWUUN9lYsL1dcnlHlD" version="21.3.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-08T10:15:16.759Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.57" etag="pUxfLfB0Dipp-VHxXWpL" version="21.3.6" type="github">
   <diagram name="หน้า-1" id="_lTkvXwPANPkcARCSi3-">
     <mxGraphModel dx="2099" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-38" value="&lt;u style=&quot;&quot;&gt;3. API GET&amp;nbsp;&lt;i&gt;vehicle register master by vehicle register master id&lt;/i&gt;&lt;/u&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="420" width="380" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="_VxGAeCzWOpxMsVGL2jx-39" value="&lt;u style=&quot;&quot;&gt;4. API GET&amp;nbsp;&lt;i&gt;vehicle kitborrow master by vehicle kitborrow master id&lt;/i&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="_VxGAeCzWOpxMsVGL2jx-39" value="&lt;u style=&quot;&quot;&gt;4. API GET&amp;nbsp;&lt;i&gt;vehicle kitborrow master by vehicle kitborrow master id&lt;/i&gt;&lt;/u&gt;" style="text;html=1;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="170" y="570" width="380" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_VxGAeCzWOpxMsVGL2jx-40" value="&lt;u style=&quot;&quot;&gt;5. API PUT&amp;nbsp;&lt;i&gt;vehicle register master by vehicle register master id&lt;/i&gt;&lt;/u&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
