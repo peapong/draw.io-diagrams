@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="dNxyNK7c78bLwvsdeMH5-19" value="Service" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" parent="1" vertex="1">
-          <mxGeometry x="120" y="80" width="1326" height="475" as="geometry" />
+          <mxGeometry x="100" y="80" width="1260" height="475" as="geometry" />
         </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="3QaK9X_xWefMJjQvL3ul-4" target="3QaK9X_xWefMJjQvL3ul-7">
           <mxGeometry relative="1" as="geometry" />
@@ -14,7 +14,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-20" value="StoreHub" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" width="1306" height="265" as="geometry" />
+          <mxGeometry x="20" width="1240" height="265" as="geometry" />
         </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-20" source="dNxyNK7c78bLwvsdeMH5-23" target="3QaK9X_xWefMJjQvL3ul-6">
           <mxGeometry relative="1" as="geometry" />
@@ -85,8 +85,11 @@
         <mxCell id="3QaK9X_xWefMJjQvL3ul-52" value="&lt;font color=&quot;#cc0000&quot;&gt;เพิ่ม Logic การส่งข้อมูล hub master ที่มี shippingTypeId เป็น 2,3 โดยส่งไป update-merchant เหมือนตอนที่หน้าเว็บส่งไป update โดยไม่ต้องสนใจรอบการจัดส่ง&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
           <mxGeometry x="890" y="30" width="294" height="100" as="geometry" />
         </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="3QaK9X_xWefMJjQvL3ul-2" target="3QaK9X_xWefMJjQvL3ul-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="OSH" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
-          <mxGeometry x="20" y="265" width="1306" height="210" as="geometry" />
+          <mxGeometry x="20" y="265" width="1240" height="210" as="geometry" />
         </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-7" value="create-merchant" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="150" y="70" width="100" height="50" as="geometry" />
@@ -94,11 +97,11 @@
         <mxCell id="3QaK9X_xWefMJjQvL3ul-8" value="update-merchant" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="290" y="70" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="3QaK9X_xWefMJjQvL3ul-20" value="&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#cc0000&quot;&gt;ปรับให้รองรับ req.body หลายตัว Array()&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
-          <mxGeometry x="280" y="125" width="120" height="70" as="geometry" />
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-20" value="&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#cc0000&quot;&gt;ปรับให้รองรับ req.body หลายตัว Array() และเพิ่มการ update column enable และ is_delete&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="290" y="125" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="3QaK9X_xWefMJjQvL3ul-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="3QaK9X_xWefMJjQvL3ul-2" target="3QaK9X_xWefMJjQvL3ul-8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-53" value="&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#cc0000&quot;&gt;เพิ่มการ update column enable และ is_delete&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="90" y="125" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
