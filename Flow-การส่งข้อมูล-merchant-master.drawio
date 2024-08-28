@@ -229,15 +229,6 @@
         <mxCell id="3QaK9X_xWefMJjQvL3ul-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3QaK9X_xWefMJjQvL3ul-77" source="3QaK9X_xWefMJjQvL3ul-85" target="3QaK9X_xWefMJjQvL3ul-108">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="3QaK9X_xWefMJjQvL3ul-125" value="" style="group" vertex="1" connectable="0" parent="3QaK9X_xWefMJjQvL3ul-77">
-          <mxGeometry x="70" y="55" width="240" height="135" as="geometry" />
-        </mxCell>
-        <mxCell id="3QaK9X_xWefMJjQvL3ul-82" value="&lt;font color=&quot;#cc0000&quot;&gt;สร้าง table&amp;nbsp;&lt;b&gt;shipping_type_master&lt;/b&gt;&amp;nbsp;ใน Database&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-125">
-          <mxGeometry x="30" width="210" height="105" as="geometry" />
-        </mxCell>
-        <mxCell id="3QaK9X_xWefMJjQvL3ul-120" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-125">
-          <mxGeometry y="55" width="60" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-126" value="" style="group" vertex="1" connectable="0" parent="3QaK9X_xWefMJjQvL3ul-77">
           <mxGeometry x="360" y="65" width="210" height="133" as="geometry" />
         </mxCell>
@@ -246,6 +237,21 @@
         </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-124" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.column;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-126">
           <mxGeometry y="90" width="52" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-130" value="" style="group" vertex="1" connectable="0" parent="3QaK9X_xWefMJjQvL3ul-77">
+          <mxGeometry x="70" y="55" width="240" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-82" value="&lt;font color=&quot;#cc0000&quot;&gt;สร้าง table&amp;nbsp;&lt;b&gt;shipping_type_master&lt;/b&gt;&amp;nbsp;ใน Database&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-130">
+          <mxGeometry x="30" width="210" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-129" value="" style="group" vertex="1" connectable="0" parent="3QaK9X_xWefMJjQvL3ul-130">
+          <mxGeometry y="55" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-120" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-129">
+          <mxGeometry width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-128" value="OSH" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-129">
+          <mxGeometry y="35" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=92.5;entryDy=0;entryPerimeter=0;" edge="1" parent="3QaK9X_xWefMJjQvL3ul-54" source="3QaK9X_xWefMJjQvL3ul-61" target="3QaK9X_xWefMJjQvL3ul-82">
           <mxGeometry relative="1" as="geometry" />
