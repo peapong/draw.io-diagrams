@@ -205,12 +205,6 @@
         <mxCell id="3QaK9X_xWefMJjQvL3ul-77" value="OSH" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-54">
           <mxGeometry x="20" y="265" width="1240" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="3QaK9X_xWefMJjQvL3ul-74" value="&lt;font color=&quot;#cc0000&quot;&gt;เพิ่ม column &lt;b&gt;shipping_type_id&lt;/b&gt; ใน table &lt;b&gt;merchant_master &lt;/b&gt;โดยมี default เป็น 1 อ้างอิงจากการสร้าง create-hub&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-77">
-          <mxGeometry x="360" y="65" width="210" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="3QaK9X_xWefMJjQvL3ul-82" value="&lt;font color=&quot;#cc0000&quot;&gt;สร้าง table&amp;nbsp;&lt;b&gt;shipping_type_master&lt;/b&gt;&amp;nbsp;ใน Database&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-77">
-          <mxGeometry x="100" y="55" width="210" height="105" as="geometry" />
-        </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-84" value="" style="group" vertex="1" connectable="0" parent="3QaK9X_xWefMJjQvL3ul-77">
           <mxGeometry x="660" y="15" width="200" height="85" as="geometry" />
         </mxCell>
@@ -234,6 +228,24 @@
         </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="3QaK9X_xWefMJjQvL3ul-77" source="3QaK9X_xWefMJjQvL3ul-85" target="3QaK9X_xWefMJjQvL3ul-108">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-125" value="" style="group" vertex="1" connectable="0" parent="3QaK9X_xWefMJjQvL3ul-77">
+          <mxGeometry x="70" y="55" width="240" height="135" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-82" value="&lt;font color=&quot;#cc0000&quot;&gt;สร้าง table&amp;nbsp;&lt;b&gt;shipping_type_master&lt;/b&gt;&amp;nbsp;ใน Database&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-125">
+          <mxGeometry x="30" width="210" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-120" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-125">
+          <mxGeometry y="55" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-126" value="" style="group" vertex="1" connectable="0" parent="3QaK9X_xWefMJjQvL3ul-77">
+          <mxGeometry x="360" y="65" width="210" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-74" value="&lt;font color=&quot;#cc0000&quot;&gt;เพิ่ม column &lt;b&gt;shipping_type_id&lt;/b&gt; ใน table &lt;b&gt;merchant_master &lt;/b&gt;โดยมี default เป็น 1 อ้างอิงจากการสร้าง create-hub&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-126">
+          <mxGeometry width="210" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-124" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.column;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-126">
+          <mxGeometry y="90" width="52" height="43" as="geometry" />
         </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0;entryDx=92.5;entryDy=0;entryPerimeter=0;" edge="1" parent="3QaK9X_xWefMJjQvL3ul-54" source="3QaK9X_xWefMJjQvL3ul-61" target="3QaK9X_xWefMJjQvL3ul-82">
           <mxGeometry relative="1" as="geometry" />
