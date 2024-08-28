@@ -82,10 +82,10 @@
         <mxCell id="3QaK9X_xWefMJjQvL3ul-46" value="&lt;font color=&quot;#cc0000&quot;&gt;ส่งข้อมูลไป update-merchant เฉพาะ hub ที่มี shippingTypeId 2,3 และ ปรับ &lt;b&gt;enable = &#39;Y&#39;&lt;/b&gt; และ &lt;b&gt;is_delete = &#39;N&#39; &lt;/b&gt;เพื่อให้ร้านมีผลใช้งานได้&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
           <mxGeometry x="780" y="170" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3QaK9X_xWefMJjQvL3ul-52" value="&lt;font color=&quot;#cc0000&quot;&gt;เพิ่ม Logic การส่งข้อมูล hub master ที่มี shippingTypeId เป็น 2,3 โดยส่งไป update-merchant เหมือนตอนที่หน้าเว็บส่งไป update โดยไม่ต้องสนใจรอบการจัดส่ง&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
-          <mxGeometry x="890" y="30" width="294" height="100" as="geometry" />
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-52" value="&lt;font color=&quot;#cc0000&quot;&gt;เพิ่ม Logic การส่งข้อมูล hub master ที่มี shippingTypeId เป็น 2,3 โดยส่งไป sqs&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-20">
+          <mxGeometry x="890" y="60" width="300" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="3QaK9X_xWefMJjQvL3ul-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="3QaK9X_xWefMJjQvL3ul-2" target="3QaK9X_xWefMJjQvL3ul-8">
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="3QaK9X_xWefMJjQvL3ul-2" target="3QaK9X_xWefMJjQvL3ul-115">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dNxyNK7c78bLwvsdeMH5-21" value="OSH" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="dNxyNK7c78bLwvsdeMH5-19" vertex="1">
@@ -102,6 +102,21 @@
         </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-53" value="&lt;font style=&quot;font-size: 11px;&quot; color=&quot;#cc0000&quot;&gt;เพิ่มการ insert column enable และ is_delete&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
           <mxGeometry x="90" y="125" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-113" value="" style="group" vertex="1" connectable="0" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="680" y="52.5" width="200" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-114" value="" style="group" vertex="1" connectable="0" parent="3QaK9X_xWefMJjQvL3ul-113">
+          <mxGeometry x="-10" width="210" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-115" value="Process Merchant Shipping Type" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-114">
+          <mxGeometry y="25" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-116" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" vertex="1" parent="3QaK9X_xWefMJjQvL3ul-114">
+          <mxGeometry x="170" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3QaK9X_xWefMJjQvL3ul-118" value="&lt;font color=&quot;#cc0000&quot;&gt;update ข้อมูล merchant_master ให้ enable = &#39;Y&#39; และ is_delete = &#39;N&#39;&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-21">
+          <mxGeometry x="890" y="105" width="246" height="75" as="geometry" />
         </mxCell>
         <mxCell id="3QaK9X_xWefMJjQvL3ul-54" value="Service" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
           <mxGeometry x="100" y="650" width="1260" height="475" as="geometry" />
