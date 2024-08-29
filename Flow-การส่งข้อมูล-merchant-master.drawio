@@ -269,7 +269,7 @@
           <mxGeometry x="100" y="1209" width="1310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--41" value="Service" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1259" width="2520" height="910" as="geometry" />
+          <mxGeometry x="100" y="1259" width="2520" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--54" target="FbjrAj_LGcpirVrRB6C--65">
           <mxGeometry relative="1" as="geometry" />
@@ -290,7 +290,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--44" value="StoreHub" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--41">
-          <mxGeometry x="20" width="2500" height="600" as="geometry" />
+          <mxGeometry x="20" width="2500" height="850" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--44" source="FbjrAj_LGcpirVrRB6C--48" target="FbjrAj_LGcpirVrRB6C--54">
           <mxGeometry relative="1" as="geometry" />
@@ -411,8 +411,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="FbjrAj_LGcpirVrRB6C--134" value="if existShippingTypeId = null&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;nowShippingType = [2,3]&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
+          <mxGeometry x="1470" y="571" width="220" height="160" as="geometry" />
+        </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--64" value="OSH" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--41">
-          <mxGeometry x="20" y="600" width="2500" height="310" as="geometry" />
+          <mxGeometry x="20" y="850" width="2500" height="310" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--65" value="&lt;span style=&quot;text-align: left;&quot;&gt;/update-merchant&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
           <mxGeometry x="300" y="60" width="120" height="50" as="geometry" />
@@ -474,9 +477,15 @@
         <mxCell id="FbjrAj_LGcpirVrRB6C--73" value="&amp;nbsp;รับข้อมูลของ hub และ action ของ hub [ใช้ &lt;i&gt;bigPlayload&lt;/i&gt;]&lt;div&gt;- ถ้า action = add ให้ &lt;b&gt;&lt;u&gt;insert&amp;nbsp;or duplicate&lt;/u&gt;&lt;/b&gt; ข้อมูลใน merchant_master โดย&amp;nbsp;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp;enable = &#39;Y&#39;, is_delete = &#39;N&#39;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp; &amp;nbsp;- ถ้าไม่มีให้สร้างใหม่&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp; &amp;nbsp;- ถ้ามีอยู่แล้วก็จะ update fact ให้ถูกต้องตาม shippingTypeId ล่าสุดของ storehub ปัจจุบัน&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- ถ้า action = delete ให้ ตรวจสอบว่ามีข้อมูล merchant_master หรือไม่ ถ้ามีให้ &lt;b&gt;&lt;u&gt;update&lt;/u&gt;&lt;/b&gt; ข้อมูล merchant_master เป็น&amp;nbsp;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;enable = &#39;N&#39;, is_delete = &#39;Y&lt;/b&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
           <mxGeometry x="1260" y="169.5" width="750" height="130.5" as="geometry" />
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--111" target="FbjrAj_LGcpirVrRB6C--71">
+        <mxCell id="FbjrAj_LGcpirVrRB6C--115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--111" target="FbjrAj_LGcpirVrRB6C--71">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1470" y="670" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1390" y="231" />
+              <mxPoint x="1390" y="971" />
+              <mxPoint x="1440" y="971" />
+              <mxPoint x="1440" y="975" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--116" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--115">
@@ -489,12 +498,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--117" target="FbjrAj_LGcpirVrRB6C--71">
+        <mxCell id="FbjrAj_LGcpirVrRB6C--123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--117" target="FbjrAj_LGcpirVrRB6C--71">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1630" y="641" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1600" y="641" />
-              <mxPoint x="1639" y="641" />
+              <mxPoint x="1460" y="421" />
+              <mxPoint x="1460" y="939" />
             </Array>
           </mxGeometry>
         </mxCell>
