@@ -343,8 +343,8 @@
         <mxCell id="FbjrAj_LGcpirVrRB6C--54" value="update-hub" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
           <mxGeometry x="310" y="70" width="100" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--55" value="&lt;font color=&quot;#cc0000&quot;&gt;ส่ง req เหมือนเดิม หรือแก้ไข req เฉพาะที่ insert&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
-          <mxGeometry x="50" y="151" width="140" height="70" as="geometry" />
+        <mxCell id="FbjrAj_LGcpirVrRB6C--55" value="&lt;font color=&quot;#cc0000&quot;&gt;ส่ง req สำหรับ insert ใน OSH table delivery_round&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
+          <mxGeometry x="40" y="151" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--56" value="&lt;span style=&quot;color: rgb(204, 0, 0);&quot;&gt;ส่ง req เหมือนเดิม หรือแก้ไข req เฉพาะที่ update&lt;/span&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
           <mxGeometry x="214" y="151" width="136" height="69" as="geometry" />
@@ -377,8 +377,8 @@
         <mxCell id="FbjrAj_LGcpirVrRB6C--85" value="&lt;span style=&quot;text-align: left;&quot;&gt;permanent-delete-hub&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
           <mxGeometry x="500" y="191" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--83" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;- ถ้า shippingTypeId เดิมของ Hub เป็น 0 หรือ 1 และของล่าสุดคือ 2 หรือ 3 จะทำการยิง OSH-Master API create-merchant ใหม่ ปรับ enable = &#39;Y&#39; is_delete = &#39;N&#39;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;ถ้า shippingTypeId เดิมของ Hub เป็น 2 หรือ 3 และของล่าสุดคือ 0 หรือ 1 จะทำการยิง OSH-Master API update-merchant ใหม่&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;ปรับ enable = &#39;N&#39; is_delete = &#39;Y&#39;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;- ถ้า shippingTypeId เดิมของ Hub และของล่าสุด เหมือนเดิม! ไม่ต้องทำอะไร!&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
-          <mxGeometry x="1610" y="481" width="850" height="79" as="geometry" />
+        <mxCell id="FbjrAj_LGcpirVrRB6C--83" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;- ถ้า shippingTypeId เดิมของ Hub เป็น 0 หรือ 1 และของล่าสุดคือ 2 หรือ 3 จะสร้าง message hub information และ &lt;u&gt;action = add&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;ถ้า shippingTypeId เดิมของ Hub เป็น 2 หรือ 3 และของล่าสุดคือ 0 หรือ 1&lt;/b&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp;จะสร้าง message hub information และ &lt;u&gt;action = delete&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;- ถ้า shippingTypeId เดิมของ Hub และของล่าสุด เหมือนเดิม! ไม่ต้องทำอะไร!&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
+          <mxGeometry x="1620" y="461" width="850" height="79" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--44" source="FbjrAj_LGcpirVrRB6C--111" target="FbjrAj_LGcpirVrRB6C--117">
           <mxGeometry relative="1" as="geometry" />
@@ -426,8 +426,8 @@
         <mxCell id="FbjrAj_LGcpirVrRB6C--68" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;แก้ไข API ใหม่ สำหรับ update ลง table delivery_round แก้ไข Flow merchant_master ให้&lt;b&gt;&amp;nbsp;ถ้ามี merchant_master ให้อัพเดต&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
           <mxGeometry x="293.5" y="126" width="170" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--74" value="&lt;font color=&quot;#cc0000&quot;&gt;แก้ไข query ฝั่ง osh ในส่วนของ Table delivery_round, merchant_store_relation, merchant_product_master ให้ยกเลิกการ LEFT JOIN กับ merchant_master&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
-          <mxGeometry x="1812.5" y="40" width="270" height="110" as="geometry" />
+        <mxCell id="FbjrAj_LGcpirVrRB6C--74" value="&lt;font color=&quot;#cc0000&quot;&gt;*** แก้ไข query ฝั่ง osh ในส่วนของ Table delivery_round, merchant_store_relation, merchant_product_master ให้ยกเลิกการ LEFT JOIN กับ merchant_master&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
+          <mxGeometry x="1820" y="18.5" width="270" height="110" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--84" value="&lt;b&gt;API&lt;/b&gt;&lt;div&gt;- /merchant-darkstore-relation&lt;/div&gt;&lt;div&gt;- /list-merchant-relational/:merchantId &lt;font color=&quot;#cc0000&quot;&gt;// ลบ merchant_type ไม่ได้ใช้&lt;/font&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;/verify-merchant-darkstore-relational/:merchantId&lt;/div&gt;&lt;div&gt;-&amp;nbsp;/count-merchant-relational&amp;nbsp;&lt;/div&gt;&lt;div&gt;- /export-member-dark-store&lt;br&gt;&lt;/div&gt;&lt;div&gt;- /create-merchant&lt;/div&gt;&lt;div&gt;- /update-merchant&lt;/div&gt;&lt;div&gt;-&amp;nbsp;/permanent-delete-merchant/:merchantId &lt;font color=&quot;#cc0000&quot;&gt;// ไม่ต้อง error ถ้าไม่มี&lt;/font&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;/merchant-delivery-round-list/:merchantId&lt;/div&gt;&lt;div&gt;-&amp;nbsp;/merchant-delivery-round&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;SQS&lt;/b&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;ProcessMessageMerchantProductMaster &lt;font color=&quot;#cc0000&quot;&gt;//รีเทส&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;-&amp;nbsp;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
           <mxGeometry x="2110" y="-14.5" width="370" height="259" as="geometry" />
@@ -459,58 +459,54 @@
         <mxCell id="FbjrAj_LGcpirVrRB6C--109" value="&lt;font style=&quot;text-wrap: nowrap; font-size: 11px;&quot; color=&quot;#ff0000&quot;&gt;&lt;b&gt;* ลบทุกครั้งที่มีการส่งมา&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;div style=&quot;text-wrap: nowrap; font-size: 11px;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;ตั้งแต่ shippingTypeId 0,1,2,3&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; font-size: 11px;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;- ลบ code insert table&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-wrap: nowrap; font-size: 11px;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;l&lt;/b&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;ogPermanentDeleteMerchantMaster&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
           <mxGeometry x="470" y="126" width="200" height="99" as="geometry" />
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--113" value="&lt;div style=&quot;&quot;&gt;/master/create-merchant&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
-          <mxGeometry x="1350" y="70" width="200" height="50" as="geometry" />
+        <mxCell id="FbjrAj_LGcpirVrRB6C--69" value="" style="group" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--64">
+          <mxGeometry x="1460" y="60" width="220" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--114" value="&lt;div style=&quot;&quot;&gt;/master/update-merchant&lt;br&gt;&lt;/div&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
-          <mxGeometry x="1580" y="70" width="200" height="50" as="geometry" />
+        <mxCell id="FbjrAj_LGcpirVrRB6C--70" value="" style="group" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--69">
+          <mxGeometry x="-22" width="253.00000000000003" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--127" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&lt;b&gt;เพิ่ม API /master&lt;/b&gt; ใหม่ สำหรับ insert ลง table &lt;b&gt;merchant_master และรองรับ Array()&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;ยกเลิก Logic การสร้าง Delivery Round&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
-          <mxGeometry x="1342.5" y="137" width="215" height="99" as="geometry" />
+        <mxCell id="FbjrAj_LGcpirVrRB6C--71" value="Process Merchant Master Information" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--70">
+          <mxGeometry y="29.411764705882355" width="240.952380952381" height="70.58823529411765" as="geometry" />
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--128" value="&lt;span style=&quot;color: rgb(204, 0, 0); font-size: 11px;&quot;&gt;&lt;b&gt;เพิ่ม API /master&lt;/b&gt;&amp;nbsp;&lt;/span&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;ใหม่ &lt;b&gt;ถ้ามี merchant_master ให้อัพเดต และรองรับ Array()&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
-          <mxGeometry x="1595" y="137" width="170" height="99" as="geometry" />
+        <mxCell id="FbjrAj_LGcpirVrRB6C--72" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--70">
+          <mxGeometry x="204.80952380952385" width="44" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--111" target="FbjrAj_LGcpirVrRB6C--113">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FbjrAj_LGcpirVrRB6C--73" value="&amp;nbsp;รับข้อมูลของ hub และ action ของ hub [ใช้ &lt;i&gt;bigPlayload&lt;/i&gt;]&lt;div&gt;- ถ้า action = add ให้ &lt;b&gt;&lt;u&gt;insert&amp;nbsp;or duplicate&lt;/u&gt;&lt;/b&gt; ข้อมูลใน merchant_master โดย&amp;nbsp;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp;enable = &#39;Y&#39;, is_delete = &#39;N&#39;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- ถ้า action = delete ให้ ตรวจสอบว่ามีข้อมูล merchant_master หรือไม่ ถ้ามีให้ &lt;b&gt;&lt;u&gt;update&lt;/u&gt;&lt;/b&gt; ข้อมูล merchant_master เป็น&amp;nbsp;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;enable = &#39;N&#39;, is_delete = &#39;Y&lt;/b&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
+          <mxGeometry x="1260" y="169.5" width="750" height="100.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FbjrAj_LGcpirVrRB6C--115" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--111" target="FbjrAj_LGcpirVrRB6C--71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1470" y="670" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--116" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--115">
           <mxGeometry x="-0.0919" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--129" value="&lt;b&gt;enable=Y, is_delete=N&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--115">
+        <mxCell id="FbjrAj_LGcpirVrRB6C--129" value="&lt;b&gt;action = &quot;add&quot;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--115">
           <mxGeometry x="0.1462" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--117" target="FbjrAj_LGcpirVrRB6C--114">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="FbjrAj_LGcpirVrRB6C--123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--117" target="FbjrAj_LGcpirVrRB6C--71">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="641" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1600" y="641" />
+              <mxPoint x="1639" y="641" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--124" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--123">
           <mxGeometry x="-0.7455" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--131" value="&lt;b&gt;enable=N, is_delete=Y&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--123">
+        <mxCell id="FbjrAj_LGcpirVrRB6C--131" value="&lt;b&gt;action = &quot;delete&quot;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--123">
           <mxGeometry x="-0.553" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--73" value="&lt;font color=&quot;#cc0000&quot;&gt;insert หรือ update ข้อมูล merchant_master ตาม shippingTypeId&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1958" y="2190" width="220" height="75" as="geometry" />
-        </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--69" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="2220" y="2180" width="200" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--70" value="" style="group" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--69">
-          <mxGeometry x="-20" width="230" height="85" as="geometry" />
-        </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--71" value="Process Merchant Master Information" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--70">
-          <mxGeometry y="25" width="219.04761904761907" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--72" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--70">
-          <mxGeometry x="186.1904761904762" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
