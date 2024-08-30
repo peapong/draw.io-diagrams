@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" version="24.7.7">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1294" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2589" dy="1734" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -269,7 +269,7 @@
           <mxGeometry x="100" y="1209" width="1310" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--41" value="Service" style="swimlane;html=1;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;" vertex="1" parent="1">
-          <mxGeometry x="100" y="1259" width="2520" height="1160" as="geometry" />
+          <mxGeometry x="100" y="1259" width="2490" height="1160" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--54" target="FbjrAj_LGcpirVrRB6C--65">
           <mxGeometry relative="1" as="geometry" />
@@ -290,7 +290,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--44" value="StoreHub" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--41">
-          <mxGeometry x="20" width="2500" height="850" as="geometry" />
+          <mxGeometry x="20" width="2470" height="850" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--44" source="FbjrAj_LGcpirVrRB6C--48" target="FbjrAj_LGcpirVrRB6C--54">
           <mxGeometry relative="1" as="geometry" />
@@ -377,8 +377,8 @@
         <mxCell id="FbjrAj_LGcpirVrRB6C--85" value="&lt;span style=&quot;text-align: left;&quot;&gt;permanent-delete-hub&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
           <mxGeometry x="500" y="191" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--83" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;- ถ้า shippingTypeId เดิมของ Hub เป็น 0 หรือ 1 และของล่าสุดคือ 2 หรือ 3 จะสร้าง message hub information และ &lt;u&gt;action = add&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;ถ้า shippingTypeId เดิมของ Hub เป็น 2 หรือ 3 และของล่าสุดคือ 0 หรือ 1&lt;/b&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp;จะสร้าง message hub information และ &lt;u&gt;action = delete&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;- ถ้า shippingTypeId เดิมของ Hub และของล่าสุด เหมือนเดิม! ไม่ต้องทำอะไร!&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
-          <mxGeometry x="1620" y="461" width="850" height="79" as="geometry" />
+        <mxCell id="FbjrAj_LGcpirVrRB6C--83" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;- ถ้า shippingTypeId เดิมของ Hub เป็น 0 หรือ 1 และของล่าสุดคือ 2 หรือ 3 จะสร้าง message hub information และ &lt;u&gt;action = add&lt;/u&gt;&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;-&amp;nbsp;&lt;/b&gt;&lt;/font&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;ถ้า shippingTypeId เดิมของ Hub เป็น 2 หรือ 3 และของล่าสุดคือ 0 หรือ 1&lt;/b&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp;จะสร้าง message hub information และ &lt;u&gt;action = delete&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;- ถ้า shippingTypeId เดิมของ Hub ไม่เคยมีอยู่ และของล่าสุดคือ 2 หรือ 3 จะสร้าง&amp;nbsp;&lt;/b&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;&amp;nbsp;message hub information และ&amp;nbsp;&lt;u&gt;action = add&lt;/u&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: initial; color: rgb(204, 0, 0);&quot;&gt;- ถ้า shippingTypeId เดิมของ Hub และของล่าสุด เหมือนเดิม! ไม่ต้องทำอะไร!&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
+          <mxGeometry x="1570" y="701" width="850" height="79" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--44" source="FbjrAj_LGcpirVrRB6C--111" target="FbjrAj_LGcpirVrRB6C--117">
           <mxGeometry relative="1" as="geometry" />
@@ -412,10 +412,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--134" value="if existShippingTypeId = null&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;nowShippingType = [2,3]&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--44">
-          <mxGeometry x="1470" y="571" width="220" height="160" as="geometry" />
+          <mxGeometry x="1470" y="521" width="220" height="160" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--64" value="OSH" style="swimlane;html=1;startSize=20;horizontal=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--41">
-          <mxGeometry x="20" y="850" width="2500" height="310" as="geometry" />
+          <mxGeometry x="20" y="850" width="2470" height="310" as="geometry" />
         </mxCell>
         <mxCell id="FbjrAj_LGcpirVrRB6C--65" value="&lt;span style=&quot;text-align: left;&quot;&gt;/update-merchant&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="FbjrAj_LGcpirVrRB6C--64">
           <mxGeometry x="300" y="60" width="120" height="50" as="geometry" />
@@ -482,9 +482,7 @@
             <mxPoint x="1470" y="670" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1390" y="231" />
-              <mxPoint x="1390" y="971" />
-              <mxPoint x="1440" y="971" />
-              <mxPoint x="1440" y="975" />
+              <mxPoint x="1390" y="975" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -498,12 +496,12 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FbjrAj_LGcpirVrRB6C--123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--117" target="FbjrAj_LGcpirVrRB6C--71">
+        <mxCell id="FbjrAj_LGcpirVrRB6C--123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--117" target="FbjrAj_LGcpirVrRB6C--71">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1630" y="641" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1460" y="421" />
-              <mxPoint x="1460" y="939" />
+              <mxPoint x="1440" y="421" />
+              <mxPoint x="1440" y="957" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -515,6 +513,25 @@
         <mxCell id="FbjrAj_LGcpirVrRB6C--131" value="&lt;b&gt;action = &quot;delete&quot;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--123">
           <mxGeometry x="-0.553" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FbjrAj_LGcpirVrRB6C--137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="FbjrAj_LGcpirVrRB6C--41" source="FbjrAj_LGcpirVrRB6C--134" target="FbjrAj_LGcpirVrRB6C--71">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1470" y="601" />
+              <mxPoint x="1470" y="711" />
+              <mxPoint x="1518" y="711" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FbjrAj_LGcpirVrRB6C--138" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--137">
+          <mxGeometry x="-0.3177" y="-1" relative="1" as="geometry">
+            <mxPoint x="-9" y="-59" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FbjrAj_LGcpirVrRB6C--139" value="&lt;b&gt;action = &quot;add&quot;&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FbjrAj_LGcpirVrRB6C--137">
+          <mxGeometry x="0.3896" y="-1" relative="1" as="geometry">
+            <mxPoint x="-27" y="-104" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
