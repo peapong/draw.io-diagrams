@@ -673,7 +673,7 @@
         <mxCell id="yf4iF6yDkmhdbDU6Azpp-26" value="ผูกร้านลูก / ร้านลูก Darkstore" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yf4iF6yDkmhdbDU6Azpp-9">
           <mxGeometry x="500" y="120" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="yf4iF6yDkmhdbDU6Azpp-27" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;เพิ่ม Logic การตรวจสอบข้อมูล shippingType ว่าต้อง create หรือ delete ที่ OSH และส่งข้อมูล hub master ที่มี action แล้ว ส่งไป sqs ที่ OSH เพื่อสร้างข้อมูล merchant_master&lt;/b&gt;&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yf4iF6yDkmhdbDU6Azpp-9">
+        <mxCell id="yf4iF6yDkmhdbDU6Azpp-27" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;b&gt;เพิ่ม Logic การตรวจสอบข้อมูล shippingType ว่าต้อง create หรือ delete ที่ OSH และส่งข้อมูล hub master ที่มี action แล้ว ส่งไป API ที่ OSH เพื่อสร้างข้อมูล merchant_master&lt;/b&gt;&lt;/font&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="yf4iF6yDkmhdbDU6Azpp-9">
           <mxGeometry x="1730" y="61" width="360" height="90" as="geometry" />
         </mxCell>
         <mxCell id="yf4iF6yDkmhdbDU6Azpp-28" value="&lt;span style=&quot;text-align: left;&quot;&gt;permanent-delete-hub&lt;/span&gt;" style="html=1;dashed=0;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="yf4iF6yDkmhdbDU6Azpp-9">
