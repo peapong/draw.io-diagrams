@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="24.7.16">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1456" dy="640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1627" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -215,7 +215,7 @@
           <mxGeometry x="285" y="1636.28" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="UXl0b42lht0FYfC2ThSm-101" value="" style="group" vertex="1" connectable="0" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="730" y="1459.28" width="200" height="140" as="geometry" />
+          <mxGeometry x="830" y="1459.28" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="UXl0b42lht0FYfC2ThSm-102" value="delivery_route_master" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="UXl0b42lht0FYfC2ThSm-101">
           <mxGeometry width="160" height="90" as="geometry" />
@@ -345,6 +345,15 @@
         </mxCell>
         <mxCell id="UXl0b42lht0FYfC2ThSm-163" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#E7157B;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.sqs;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="739.0000000000001" y="1061.55" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UXl0b42lht0FYfC2ThSm-165" value="เพิ่ม pk&amp;nbsp;&lt;div&gt;-&amp;nbsp;EffectiveStartDate&lt;/div&gt;&lt;div&gt;-&amp;nbsp;EffectiveEndDate&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FFFFCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1240" y="34.81" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UXl0b42lht0FYfC2ThSm-166" value="เพิ่มการ check emer&amp;nbsp;shipmentCd = 8&lt;div&gt;เพิ่มการ lock row&lt;/div&gt;&lt;div&gt;- ตรวจสอบว่ามีคลังที่&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;shipmentCd = 1 และ emer มีผลก่อนหรือไม่&lt;/span&gt;&lt;/div&gt;&lt;div&gt;เช่น ปกติมีผล 1-30 แต่ emer มีผล 1-15 ของปกติจะต้องปรับให้มีผล 16-30&lt;/div&gt;&lt;div&gt;- ตรวจสอบว่า ถ้ามี emer อยู่ก่อน 1-15 และปกติ 1-30 จะต้องปรับปกติให้มีผล 16-30&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FFFFCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="479.99999999999994" y="1580" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UXl0b42lht0FYfC2ThSm-167" value="shipment_cd = 1 (normal), 8 (emer)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=#FFFFCC;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2040" y="183.28" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
