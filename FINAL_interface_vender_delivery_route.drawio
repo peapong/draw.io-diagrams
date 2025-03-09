@@ -344,7 +344,7 @@
           <mxGeometry x="1360" y="950" width="180" height="170" as="geometry" />
         </mxCell>
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-52" value="&lt;span class=&quot;hljs-comment&quot;&gt;กรณีข้อมูลใหม่ไม่ทับซ้อนกับข้อมูลเดิมเลย&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;ตัวอย่าง:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;exist: [01/01/2025 - 31/01/2025]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;new   : [01/03/2025 - 31/03/2025] (อยู่คนละช่วง)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;✅ Action: เก็บข้อมูลทั้งใหม่และเดิมไว้ เพราะไม่มีผลต่อกัน&lt;/span&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
-          <mxGeometry x="1560" y="540" width="250" height="130" as="geometry" />
+          <mxGeometry x="1560" y="560" width="250" height="130" as="geometry" />
         </mxCell>
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-53" value="&lt;span class=&quot;hljs-comment&quot;&gt;กรณีข้อมูลใหม่ครอบคลุมข้อมูลเดิมทั้งหมด&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;ตัวอย่าง:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;exist: [01/02/2025 - 28/02/2025]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;new   : [01/01/2025 - 30/03/2025] (ครอบคลุมทั้งหมด)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;✅ Action: ใช้ข้อมูลใหม่แทนข้อมูลเดิมทั้งหมด&lt;/span&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="1560" y="800" width="250" height="140" as="geometry" />
@@ -369,6 +369,9 @@
         </mxCell>
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-59" value="&lt;span class=&quot;hljs-comment&quot;&gt;กรณีข้อมูลใหม่อยู่ด้านท้ายของข้อมูลเดิม แต่ไม่ครอบคลุมทั้งหมด&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;ตัวอย่าง:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;exist: [01/01/2025 - 20/02/2025]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;new   : [10/02/2025 - 30/03/2025] (อยู่ช่วงท้าย)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;✅ Action:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;&amp;nbsp;1. ปรับข้อมูลเดิมให้สิ้นสุดก่อนข้อมูลใหม่&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;&amp;nbsp;2. ใช้ข้อมูลใหม่ต่อจากข้อมูลเดิม&lt;/span&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" vertex="1" parent="1">
           <mxGeometry x="1560" y="1710" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="dTRsw3U2BnhWRbLVyNa4-9" value="&lt;u&gt;&lt;b&gt;*route ไหนที่ให้หมดอายุหรือเปลี่ยนรอบ รอบเก่าจะต้องมีผลวันสุดท้ายคือวันปัจจุบันเสมอ&lt;/b&gt;&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFCCCC;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="450" width="450" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
