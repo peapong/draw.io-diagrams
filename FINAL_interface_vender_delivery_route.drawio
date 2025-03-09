@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4lbFCNvjMXSJsJPgC9Bq" name="Process Delivery Route">
-    <mxGraphModel dx="1925" dy="987" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1777" dy="911" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -340,6 +340,11 @@
               <mxPoint x="2620" y="610" />
               <mxPoint x="2620" y="985" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTRsw3U2BnhWRbLVyNa4-55" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dTRsw3U2BnhWRbLVyNa4-21">
+          <mxGeometry x="-0.6784" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-47" value="newPeriods.&lt;span class=&quot;hljs-property&quot;&gt;startDate&lt;/span&gt; &amp;gt; exist.&lt;span class=&quot;hljs-property&quot;&gt;endDate&lt;/span&gt; || newPeriods.&lt;span class=&quot;hljs-property&quot;&gt;endDate&lt;/span&gt; &amp;lt; exist.&lt;span class=&quot;hljs-property&quot;&gt;startDate&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -472,6 +477,26 @@
         </mxCell>
         <mxCell id="dTRsw3U2BnhWRbLVyNa4-52" value="SELECT ... FOR UPDATE&lt;div&gt;(Lock Row)&lt;br&gt;&lt;div&gt;Delivery Route In Database&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1480" y="380" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dTRsw3U2BnhWRbLVyNa4-57" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2395.5555555555557" y="619" as="geometry">
+            <mxPoint x="-12" y="221" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTRsw3U2BnhWRbLVyNa4-58" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2394.9955555555557" y="890" as="geometry">
+            <mxPoint x="-12" y="221" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTRsw3U2BnhWRbLVyNa4-59" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2394.9955555555557" y="1230" as="geometry">
+            <mxPoint x="-12" y="221" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dTRsw3U2BnhWRbLVyNa4-60" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="2394.9955555555557" y="1530" as="geometry">
+            <mxPoint x="-12" y="221" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
