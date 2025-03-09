@@ -319,7 +319,7 @@
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-47" value="newPeriods.&lt;span class=&quot;hljs-property&quot;&gt;startDate&lt;/span&gt; &amp;gt; exist.&lt;span class=&quot;hljs-property&quot;&gt;endDate&lt;/span&gt; || newPeriods.&lt;span class=&quot;hljs-property&quot;&gt;endDate&lt;/span&gt; &amp;lt; exist.&lt;span class=&quot;hljs-property&quot;&gt;startDate&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="442.5" width="180" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="-fjYQdxsjJmQMl2-5wNF-48" value="&lt;span style=&quot;text-align: left;&quot;&gt;insert delivery route&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-fjYQdxsjJmQMl2-5wNF-48" value="&lt;span style=&quot;text-align: left;&quot;&gt;insert on duplicate&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;delivery route&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2020" y="880" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dTRsw3U2BnhWRbLVyNa4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-fjYQdxsjJmQMl2-5wNF-49" target="-fjYQdxsjJmQMl2-5wNF-47">
