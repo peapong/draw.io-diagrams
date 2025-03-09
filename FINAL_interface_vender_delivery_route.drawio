@@ -371,7 +371,7 @@
           <mxGeometry x="1560" y="1710" width="250" height="160" as="geometry" />
         </mxCell>
         <mxCell id="dTRsw3U2BnhWRbLVyNa4-9" value="&lt;u&gt;&lt;b&gt;*route ไหนที่ให้หมดอายุหรือเปลี่ยนรอบ รอบเก่าจะต้องมีผลวันสุดท้ายคือวันปัจจุบันเสมอ&lt;/b&gt;&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFCCCC;" vertex="1" parent="1">
-          <mxGeometry x="1560" y="450" width="450" height="30" as="geometry" />
+          <mxGeometry x="1540" y="420" width="240" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
