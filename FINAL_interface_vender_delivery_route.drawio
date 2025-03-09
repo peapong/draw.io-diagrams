@@ -239,7 +239,7 @@
           <mxGeometry x="375" y="59.27999999999997" width="35.1" height="40.72" as="geometry" />
         </mxCell>
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-15" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1870" y="420" width="200" height="140" as="geometry" />
+          <mxGeometry x="2320" y="860" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-16" value="delivery_route_master" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="-fjYQdxsjJmQMl2-5wNF-15">
           <mxGeometry width="160" height="90" as="geometry" />
@@ -311,7 +311,7 @@
           <mxGeometry x="1360" y="425" width="180" height="175" as="geometry" />
         </mxCell>
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-48" value="&lt;span style=&quot;text-align: left;&quot;&gt;insert delivery route&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1370" y="300" width="160" height="60" as="geometry" />
+          <mxGeometry x="2020" y="880" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-49" value="for loop exist periods delivery route in database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1042.5" y="500" width="175" height="60" as="geometry" />
