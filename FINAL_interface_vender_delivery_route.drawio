@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4lbFCNvjMXSJsJPgC9Bq" name="Process Delivery Route">
-    <mxGraphModel dx="1155" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1650" dy="846" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -418,11 +418,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-fjYQdxsjJmQMl2-5wNF-56" value="newPeriods.&lt;span class=&quot;hljs-property&quot;&gt;startDate&lt;/span&gt; &amp;lt;= exist.&lt;span class=&quot;hljs-property&quot;&gt;startDate&lt;/span&gt; &amp;amp;&amp;amp; newPeriods.&lt;span class=&quot;hljs-property&quot;&gt;endDate&lt;/span&gt; &amp;lt; exist.&lt;span class=&quot;hljs-property&quot;&gt;endDate&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="-fjYQdxsjJmQMl2-5wNF-56" value="newPeriod.&lt;span class=&quot;hljs-property&quot;&gt;start_date&lt;/span&gt; &amp;gt; existing.&lt;span class=&quot;hljs-property&quot;&gt;start_date&lt;/span&gt; &amp;amp;&amp;amp; newPeriod.&lt;span class=&quot;hljs-property&quot;&gt;end_date&lt;/span&gt; &amp;gt;= existing.&lt;span class=&quot;hljs-property&quot;&gt;end_date&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2070" y="1370" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="-fjYQdxsjJmQMl2-5wNF-57" value="&lt;span class=&quot;hljs-comment&quot;&gt;กรณีข้อมูลใหม่อยู่ด้านหน้าของข้อมูลเดิม แต่ไม่ครอบคลุมทั้งหมด&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;ตัวอย่าง:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;exist: [10/02/2025 - 31/03/2025]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;new   : [01/02/2025 - 20/02/2025] (อยู่ช่วงต้น)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;✅ Action:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;&amp;nbsp;1. ใช้ข้อมูลใหม่&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;&amp;nbsp;2. ปรับข้อมูลเดิมให้เริ่มหลังจากข้อมูลใหม่&lt;/span&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" parent="1" vertex="1">
-          <mxGeometry x="2270" y="1490" width="250" height="160" as="geometry" />
+        <mxCell id="-fjYQdxsjJmQMl2-5wNF-57" value="&lt;span class=&quot;hljs-comment&quot;&gt;������ **Case 4: ข้อมูลใหม่ทับด้านหลัง**&lt;/span&gt;&lt;div&gt;&lt;span class=&quot;hljs-comment&quot;&gt;✅ ตัดข้อมูลเก่าให้สั้นลง และเพิ่มข้อมูลใหม่&lt;/span&gt;&lt;/div&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" parent="1" vertex="1">
+          <mxGeometry x="2270" y="1490" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="dTRsw3U2BnhWRbLVyNa4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-fjYQdxsjJmQMl2-5wNF-58" target="dTRsw3U2BnhWRbLVyNa4-18" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -432,11 +432,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="-fjYQdxsjJmQMl2-5wNF-58" value="newPeriods.&lt;span class=&quot;hljs-property&quot;&gt;startDate&lt;/span&gt; &amp;gt; exist.&lt;span class=&quot;hljs-property&quot;&gt;startDate&lt;/span&gt; &amp;amp;&amp;amp; newPeriods.&lt;span class=&quot;hljs-property&quot;&gt;endDate&lt;/span&gt; &amp;gt;= exist.&lt;span class=&quot;hljs-property&quot;&gt;endDate&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="-fjYQdxsjJmQMl2-5wNF-58" value="else" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2070" y="1670" width="180" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="-fjYQdxsjJmQMl2-5wNF-59" value="&lt;span class=&quot;hljs-comment&quot;&gt;กรณีข้อมูลใหม่อยู่ด้านท้ายของข้อมูลเดิม แต่ไม่ครอบคลุมทั้งหมด&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;ตัวอย่าง:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;exist: [01/01/2025 - 20/02/2025]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;new   : [10/02/2025 - 30/03/2025] (อยู่ช่วงท้าย)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;✅ Action:&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;&amp;nbsp;1. ปรับข้อมูลเดิมให้สิ้นสุดก่อนข้อมูลใหม่&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;hljs-comment&quot;&gt;&amp;nbsp;2. ใช้ข้อมูลใหม่ต่อจากข้อมูลเดิม&lt;/span&gt;" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" parent="1" vertex="1">
-          <mxGeometry x="2270" y="1790" width="250" height="160" as="geometry" />
+        <mxCell id="-fjYQdxsjJmQMl2-5wNF-59" value="Case 5: ไม่มีการทับซ้อนเลย" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=left;fillColor=light-dark(#FFFFCC,var(--ge-dark-color, #121212));" parent="1" vertex="1">
+          <mxGeometry x="2270" y="1790" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="dTRsw3U2BnhWRbLVyNa4-9" value="&lt;u&gt;&lt;b&gt;*route ไหนที่ให้หมดอายุหรือเปลี่ยนรอบ รอบเก่าจะต้องมีผลวันสุดท้ายคือวันปัจจุบันเสมอ&lt;/b&gt;&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="2250" y="500" width="240" height="50" as="geometry" />
