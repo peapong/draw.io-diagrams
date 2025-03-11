@@ -216,7 +216,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="4lbFCNvjMXSJsJPgC9Bq" name="Process Delivery Route">
-    <mxGraphModel dx="1189" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="3038" dy="1316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -242,7 +242,7 @@
           <mxGeometry x="285" y="117" width="140" height="56" as="geometry" />
         </mxCell>
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-15" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="3180" y="940" width="200" height="140" as="geometry" />
+          <mxGeometry x="2860" y="940" width="200" height="140" as="geometry" />
         </mxCell>
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-16" value="delivery_route_master" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="-fjYQdxsjJmQMl2-5wNF-15" vertex="1">
           <mxGeometry width="160" height="90" as="geometry" />
@@ -349,12 +349,6 @@
         <mxCell id="-fjYQdxsjJmQMl2-5wNF-47" value="newRecord.&lt;span class=&quot;hljs-property&quot;&gt;startDate&lt;/span&gt; &amp;gt; exist.&lt;span class=&quot;hljs-property&quot;&gt;effective_end_date&lt;/span&gt; || newRecord.&lt;span class=&quot;hljs-property&quot;&gt;endDate&lt;/span&gt; &amp;lt; exist.&lt;span class=&quot;hljs-property&quot;&gt;effective_start_date&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="2070" y="522.5" width="180" height="175" as="geometry" />
         </mxCell>
-        <mxCell id="dTRsw3U2BnhWRbLVyNa4-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-fjYQdxsjJmQMl2-5wNF-48" target="-fjYQdxsjJmQMl2-5wNF-16" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-fjYQdxsjJmQMl2-5wNF-48" value="&lt;span style=&quot;text-align: left;&quot;&gt;insert on duplicate&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;delivery route&lt;br&gt;(Unlock Row)&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2880" y="955" width="160" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="dTRsw3U2BnhWRbLVyNa4-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="-fjYQdxsjJmQMl2-5wNF-49" target="-fjYQdxsjJmQMl2-5wNF-47" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -435,7 +429,7 @@
         <mxCell id="dTRsw3U2BnhWRbLVyNa4-9" value="&lt;u&gt;&lt;b&gt;*route ไหนที่ให้หมดอายุหรือเปลี่ยนรอบ รอบเก่าจะต้องมีผลวันสุดท้ายคือวันปัจจุบันเสมอ&lt;/b&gt;&lt;/u&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#FFCCCC;" parent="1" vertex="1">
           <mxGeometry x="2250" y="500" width="240" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dTRsw3U2BnhWRbLVyNa4-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="dTRsw3U2BnhWRbLVyNa4-18" target="-fjYQdxsjJmQMl2-5wNF-48" edge="1">
+        <mxCell id="3nHEMr3OxBXhx4Ayf72o-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dTRsw3U2BnhWRbLVyNa4-18" target="-fjYQdxsjJmQMl2-5wNF-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="dTRsw3U2BnhWRbLVyNa4-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
